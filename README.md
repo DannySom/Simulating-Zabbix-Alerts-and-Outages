@@ -84,7 +84,16 @@ Trigger
 <img width="600" alt="Screenshot 2026-01-04 232807" src="https://github.com/user-attachments/assets/e5f09a39-ef89-4c95-8c5d-d5acff4bb4e6" />
 </p>
 <p>
-It trigg
+ 
+To simulate high CPU alert, I typed in the command, ``stress --cpu 1 --timeout 600`` on Host-1.
+
+`stress` → simulates CPU overload
+
+`--cpu 1` → one CPU worker will generate load. Host-1 has one vCPU which will max out this one core.
+
+`--timeout 600` → runs for 600 seconds which is 10 minutes </p>
+
+This triggered an alert which was "High CPU Usage 75% for 2 minutes" which we can see in Monitoring → Problems.
 </p>
 <br />
 
@@ -93,30 +102,33 @@ It trigg
 <img width="1729" height="417" alt="Screenshot 2026-01-04 233357" src="https://github.com/user-attachments/assets/76c0c7f8-120f-476a-b962-5744e9448c10" />
 </p>
 <p>
-CPU
-</p>
-<br />
+ 
+In the CPU utilization graph, we can see that CPU usage spikes to ~100% at 05:19, which corresponds to the start of the stress test `stress --cpu 1 --timeout 600`. The CPU remains at this high level for the full 10-minute duration, and returns to baseline (-<5%) at 05:29 after the stress process ends.
 
-<p>
-<img width="600" alt="Screenshot 2026-01-04 232807" src="https://github.com/user-attachments/assets/e5f09a39-ef89-4c95-8c5d-d5acff4bb4e6" />
-</p>
-<p>
-Triggered
+</p> In real-world scenarios, short CPU spikes are normal and often caused by routine tasks. However, if CPU utilization remains sustained above ~75%, this usually indicates a potential issue, such as a runaway process, a Denial-of-Service (DoS) attack, or unusually heavy traffic.
 </p>
 <br />
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="656" height="410" alt="image" src="https://github.com/user-attachments/assets/77c97c6e-1e0d-4177-bc7e-3d727acbc8e3" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+To identify the process causing high CPU utilization, I ran `top` on the host VM. This allowed me to see which process was consuming the most CPU resources in real time.
+
+</p> 
+
+Here, we can see that the `stress` process is consuming approximately 99.7% of CPU. We can also identify it by its PID and the user account running the process.
+
 </p>
+
 <br />
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="654" height="411" alt="image" src="https://github.com/user-attachments/assets/58daae64-4f05-4509-97da-e26ca7c10dd6" /> <img width="647" height="413" alt="image" src="https://github.com/user-attachments/assets/698a4532-c20e-4876-8b32-b7158ea39cbf" />
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
