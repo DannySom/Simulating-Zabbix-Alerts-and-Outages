@@ -21,7 +21,10 @@ In this section, I simulated multiple monitoring alerts and incidents in Zabbix 
 <h2>Testing Simulated Incidents</h2>
 
 <p>
-<img width="400" height="115" alt="image" src="https://github.com/user-attachments/assets/db69814c-5291-459a-95d9-a4c29ea822a3" /> <img width="450" alt="image" src="https://github.com/user-attachments/assets/39e292ce-f896-471b-8883-21b9bb6e4a93" /> <img width="400" alt="image" src="https://github.com/user-attachments/assets/32e12f4c-6160-4106-8e40-0cdfd5382b7c" /> <img width="450" alt="image" src="https://github.com/user-attachments/assets/a86ff69b-6836-4e9b-8d70-778374a4afc4" />
+<img width="400" height="115" alt="image" src="https://github.com/user-attachments/assets/db69814c-5291-459a-95d9-a4c29ea822a3" /> <img width="450" alt="image" src="https://github.com/user-attachments/assets/39e292ce-f896-471b-8883-21b9bb6e4a93" /> <img width="400" alt="Screenshot 2026-01-04 200915" src="https://github.com/user-attachments/assets/4f46f8b1-e53a-4c47-b7e4-9c8344882838" />
+ <img width="450" alt="image" src="https://github.com/user-attachments/assets/f3ba3d01-1b9b-4627-a272-bc15b9d5547f" />
+
+
 
 
 </p>
@@ -40,5 +43,82 @@ If I also click update problem, I could put a note in there so if anybody else i
 <p>
 To resolve the incident, I restarted the Zabbix Agent service on Host-2 by typing `service zabbix-agent start` . Zabbix then automatically detected recovery, cleared the alert, and restored the host to a normal operational state. </p>
 This test confirmed that triggers were correctly configured to detect service outages, generate alerts, and resolve incidents once the underlying issue was corrected.
+</p>
+<br />
+
+<p>
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/011477ca-c4d0-48dd-b64e-cbc6da17f384" /> <img width="1527" height="155" alt="image" src="https://github.com/user-attachments/assets/6f335ebb-f9a5-4a64-a2b2-d88adb6fa950" />
+</p>
+<p>
+kuik
+</p>
+<br />
+
+<p>
+<img width="1732" height="429" alt="image" src="https://github.com/user-attachments/assets/9789787e-b780-4a23-9913-1cbda205f760" />
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
